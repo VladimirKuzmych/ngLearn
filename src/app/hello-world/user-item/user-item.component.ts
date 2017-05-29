@@ -7,7 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class UserItemComponent implements OnInit {
   @Input()
-  private name: string;
+  public name: string;
 
   constructor() {
     this.name = 'Filipe';
